@@ -60,7 +60,7 @@ const consoleLog = console.log;
 // consoleLog(getMinutesPerTackle(getMinutesPlayed(playersStats), getTackles(playersStats)))
 
 // Calling all functions together
-consoleLog(formatMinutesPerTackles(getMinutesPerTackle(getMinutesPlayed(playersStats), getTackles(playersStats))))
+// consoleLog(formatMinutesPerTackles(getMinutesPerTackle(getMinutesPlayed(playersStats), getTackles(playersStats))))
 
 module.exports = { 
   getMinutesPlayed: getMinutesPlayed,
