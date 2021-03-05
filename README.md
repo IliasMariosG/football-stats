@@ -68,3 +68,9 @@ All files             |     100 |      100 |     100 |     100 |
  minutesPerTackles.js |     100 |      100 |     100 |     100 |                   
 ----------------------|---------|----------|---------|---------|-------------------
 ```
+
+## Errors
+
+### #getTrueTackleSuccessRate / returns a list of the names of players and the respective tackle success rate:
+![Screenshot 2021-03-05 at 3 02 28 PM](https://user-images.githubusercontent.com/57366310/110119045-e8a2a500-7dc3-11eb-91ab-3ed80595e56e.png)
+
