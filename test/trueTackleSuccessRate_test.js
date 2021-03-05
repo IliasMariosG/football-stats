@@ -1,6 +1,6 @@
 const { stats } = require('./stats');
 const assert = require('assert');
-const Calculate = require('../trueTackleSuccessRate')
+const Calculate = require('../metrics/trueTackleSuccessRate')
 
 describe ('Calculate', () => {
   
