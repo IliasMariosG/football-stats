@@ -27,6 +27,47 @@ function stats() {
       "tackles": { "total": 57 }
     }
   ];
-  return { statsMinutesPlayed, statsTackles };
+  const statsDuelsTotal = [
+    {
+      "duels": { "total": 10 }
+    },
+    {
+      "duels": { "total": 2 }
+    },
+    {
+      "duels": { "total": 20 }
+    },
+    {
+      "duels": { "total": 10 }
+    },
+  ];
+  const statsDuelsWon = [
+    {
+      "duels": { "won": 5 }
+    },
+    {
+      "duels": { "won": 1 }
+    },
+    {
+      "duels": {"won": 4 }
+    },
+    {
+    },
+  ];
+  const foulsCommitted = [
+    {
+      "fouls": { "committed" : 5 }
+    },
+    {
+      "fouls": { "committed" : 4 }
+    },
+    {
+      "fouls": { "committed" : 5 }
+    },
+    {
+      "fouls": { "committed" : 5 }
+    },
+  ]
+  return { statsMinutesPlayed, statsTackles, statsDuelsTotal, statsDuelsWon, foulsCommitted };
 }
 exports.stats = stats;

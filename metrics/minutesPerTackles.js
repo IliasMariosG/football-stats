@@ -1,5 +1,15 @@
 const playersStats = require('../playerStats');
-
+  
+// console.log(Array.isArray(playersStats)) - true
+for (const element of playersStats) {
+  // for (const property of playersStats) {
+    console.log(element.player_name)
+    console.log(element.shots.total)
+  // }
+}
+// for (const property in playersStats[0]) {
+//   console.log(playersStats[0][property])
+// }
 function getMinutesPlayed (playersStats) {
   minutesPlayed = []
   for (const property of playersStats) {
