@@ -64,10 +64,10 @@ function all (){
 // console.log(getTacklesSuccessful(playersStats));
 
 // 1
-console.log(getTrueTackleSuccessRate(getTacklesSuccessful(playersStats)));
+// console.log(getTrueTackleSuccessRate(getTacklesSuccessful(playersStats)));
 
 // 2
-// const firstSecond = keepTwoDecimals(getTrueTackleSuccessRate());
+// const firstSecond = keepTwoDecimals(getTrueTackleSuccessRate(getTacklesSuccessful(playersStats)));
 // console.log(firstSecond)
 
 // const secondThird = convertToNumbers(keepTwoDecimals(getTrueTackleSuccessRate()));
@@ -82,4 +82,5 @@ console.log(getTrueTackleSuccessRate(getTacklesSuccessful(playersStats)));
 module.exports = {
   getTacklesSuccessful: getTacklesSuccessful,
   getTrueTackleSuccessRate: getTrueTackleSuccessRate,
+  keepTwoDecimals: keepTwoDecimals,
 }
