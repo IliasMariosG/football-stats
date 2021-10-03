@@ -1,5 +1,7 @@
 # Football Stats
 
+### Note: This project will be back better and stronger with OOP, classes etc. I still love football
+
 ## Description
 
 Minutes per tackle for four players for season 2020 - 2021 in Premier League.
